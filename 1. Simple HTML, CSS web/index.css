@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+	min-width: 320px;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1320px;
+	padding: 0 1rem;
+}
+
+.button {
+	cursor: pointer;
+	background-color: #3aa8ff;
+	color: white;
+	padding: 0.6rem 1.25rem;
+	border-radius: 20px;
+	border: none;
+	font-size: 1.1rem;
+}
+
+/*------NAVBAR---------*/
+
+.navbar {
+	padding: 1rem 0;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-wrapper h3 {
+	margin: 0;
+}
+
+.nav-right a {
+	margin-left: 3rem;
+	text-decoration: none;
+	color: black;
+}
+
+.nav-right a:hover {
+	color: #3aa8ff;
+}
+
+@media screen and (max-width: 770px) {
+	.nav-wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+	.nav-right {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.nav-right a {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+}
+
+/*--------HERO------*/
+
+.hero {
+	background-image: url("./assets/hero.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.hero .content-wrapper {
+	padding: 10rem 0;
+}
+
+.hero-title {
+	color: white;
+	font-size: 4rem;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-bottom: 1.5rem;
+}
+
+.description-wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.hero-description {
+	color: white;
+	text-align: center;
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+.hero .content-bottom {
+	display: flex;
+
+	justify-content: center;
+	margin-top: 3rem;
+}
+
+/*-------SECTION----------*/
+
+.section .content-wrapper {
+	display: flex;
+	align-items: center;
+	padding: 2rem 0;
+	gap: 50px;
+}
+
+.section .content-wrapper img {
+	width: 45%;
+}
+
+.left-block h1 {
+	font-size: 2rem;
+}
+
+.left-block p {
+	margin-top: 20px;
+	font-size: 1.1rem;
+}
+
+.left-block button {
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 770px) {
+	.section .content-wrapper img {
+		width: 65%;
+	}
+	.section .content-wrapper {
+		flex-direction: column-reverse;
+	}
+
+	.left-block h1 {
+		text-align: center;
+	}
+
+	.left-block p {
+		text-align: center;
+	}
+
+	.left-block button {
+		margin-top: 20px;
+	}
+	.section .content-bottom {
+		display: flex;
+		justify-content: center;
+	}
+}
