@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+}
+
+body {
+	min-width: 320px;
+	font-family: var(--font-family);
+}
+
+:root {
+	--color-gray: rgb(95, 95, 95);
+	--font-family: Verdana, sans-serif;
+	--card-border-radius: 15px;
+	--box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	--card-content-padding: 2rem;
+	--card-width: 300px;
+	--card-image-height: 150px;
+}
