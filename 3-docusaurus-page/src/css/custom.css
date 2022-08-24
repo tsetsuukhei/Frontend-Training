@@ -1,0 +1,313 @@
+.header-github-logo:before {
+	content: "";
+	width: 24px;
+	height: 24px;
+	display: flex;
+	background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E")
+		no-repeat;
+}
+
+html[data-theme="dark"] .header-github-logo:before {
+	background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='white' d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E")
+		no-repeat;
+}
+
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+body {
+	min-width: 320px;
+}
+
+:root {
+	--ifm-color-primary: #0551ed;
+	--ifm-color-primary-dark: #1e57d3;
+	--ifm-color-primary-darker: #1c52c8;
+	--ifm-color-primary-darkest: #1743a4;
+	--ifm-color-primary-light: #4275e4;
+	--ifm-color-primary-lighter: #4e7ee6;
+	--ifm-color-primary-lightest: #7197eb;
+	--ifm-color-green: #19e612;
+	--ifm-color-gray-lighter: #999999;
+	--ifm-code-font-size: 95%;
+	--ifm-footer-background-color: #000;
+	--ifm-link-hover-decoration: none;
+	--ifm-font-family-base: "sohne-var", "Helvetica Neue", "Arial", sans-serif;
+	--ifm-h1-font-size: 2.4rem;
+	--ifm-h2-font-size: 2rem;
+	--ifm-h3-font-size: 1.75rem;
+	--ifm-h4-font-size: 1.5rem;
+	--ifm-h5-font-size: 1.25rem;
+	--ifm-h6-font-size: 1rem;
+	--ifm-global-radius: 0.7rem;
+}
+
+.hero__subtitle {
+	font-size: 1.2rem;
+}
+
+.docusaurus-highlight-code-line {
+	background-color: rgba(0, 0, 0, 0.1);
+	display: block;
+	margin: 0 calc(-1 * var(--ifm-pre-padding));
+	padding: 0 var(--ifm-pre-padding);
+}
+
+.footer {
+	--ifm-footer-background-color: #000;
+}
+
+html[data-theme="dark"] .docusaurus-highlight-code-line {
+	background-color: rgba(0, 0, 0, 0.3);
+	--ifm-color-primary: #2b64e1;
+	--ifm-color-primary-dark: #1e57d3;
+
+	--ifm-footer-background-color: #000;
+	/* any other colors you wish to overwrite */
+}
+
+html[data-theme="dark"] .hero--primary {
+	--ifm-hero-text-color: rgb(255, 255, 255);
+}
+
+.navbar__logo {
+	flex: 0 0 auto;
+	height: 3rem;
+	margin-right: 0.5rem;
+}
+
+.navbar__items--right > :last-child {
+	padding-right: 0;
+	display: block;
+}
+
+.footer__social_link {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: var(--ifm-color-gray-600);
+	font-size: var(--ifm-h6-font-size);
+	text-decoration: var(--ifm-link-decoration);
+}
+
+.footer__social_link:hover {
+	color: var(--ifm-color-gray-100);
+}
+
+.footer__company {
+	margin-bottom: 0px;
+	padding-top: 10px;
+	color: var(--ifm-color-gray-400);
+	font-size: var(--ifm-h4-font-size);
+}
+
+.footer__slogan {
+	color: var(--ifm-color-gray-400);
+	font-size: var(--ifm-h5-font-size);
+}
+
+.header-button-link > span > svg {
+	display: none;
+}
+
+.navbar__items .button--primary {
+	margin-left: 12px;
+	padding-left: 8px;
+	padding-right: 3px;
+}
+
+.navbar .button--primary {
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+	-webkit-box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+	font-size: 0.875rem;
+}
+
+.button {
+	background-color: var(--ifm-button-background-color);
+	border: var(--ifm-button-border-width) solid var(--ifm-button-border-color);
+	border-radius: var(--ifm-button-border-radius);
+	cursor: pointer;
+	font-size: calc(0.875rem * var(--ifm-button-size-multiplier));
+	font-weight: var(--ifm-button-font-weight);
+	line-height: 1.5;
+	padding: calc(
+			var(--ifm-button-padding-vertical) * var(--ifm-button-size-multiplier)
+		)
+		calc(
+			var(--ifm-button-padding-horizontal) * var(--ifm-button-size-multiplier)
+		);
+	text-align: center;
+	transition-duration: var(--ifm-button-transition-duration);
+	transition-property: color, background, border-color;
+	user-select: none;
+}
+
+.header-icon-link > span {
+	display: none;
+}
+
+.header-icon-link:before {
+	width: 2em;
+	height: 2em;
+	margin-left: -0.75em;
+	background-color: var(--ifm-navbar-link-color);
+	-webkit-mask-image: var(--icon);
+	mask-image: var(--icon);
+	content: "";
+	display: flex;
+}
+
+.header-icon-link:hover:before {
+	background-color: var(--ifm-navbar-link-hover-color);
+	transform: scale(1.05);
+	transition-duration: 75ms;
+}
+.header-launchpad-link:before {
+	--icon: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z'/%3E%3C/svg%3E");
+}
+
+.header-twitter-link:before {
+	--icon: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z'/%3E%3C/svg%3E");
+}
+
+.header-github-link:before {
+	--icon: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z'/%3E%3C/svg%3E");
+}
+
+.header-linkedin-link:before {
+	--icon: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z'/%3E%3C/svg%3E");
+}
+
+.navbar__inner {
+	max-width: var(--ifm-container-width);
+	margin: auto;
+}
+
+@media (min-width: 1440px) {
+	.navbar__inner {
+		max-width: var(--ifm-container-width-xl);
+	}
+}
+
+.row .col.col--3 {
+	--ifm-col-width: calc(3 / 15 * 100%);
+}
+
+.DocSearch-Button {
+	min-width: 300px;
+}
+
+.text-wrapper--lg {
+	max-width: 800px;
+}
+
+.text-wrapper--md {
+	max-width: 600px;
+}
+
+.text-wrapper--sm {
+	max-width: 400px;
+}
+
+@media screen and (max-width: 1440px) {
+	.text-wrapper--lg {
+		max-width: 70%;
+	}
+	.text-wrapper--md {
+		max-width: 60%;
+	}
+	.text-wrapper--sm {
+		max-width: 50%;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	.text-wrapper--lg {
+		max-width: 80%;
+	}
+	.text-wrapper--md {
+		max-width: 70%;
+	}
+	.text-wrapper--sm {
+		max-width: 65%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.text-wrapper--lg {
+		max-width: 95%;
+	}
+	.text-wrapper--md {
+		max-width: 90%;
+	}
+	.text-wrapper--sm {
+		max-width: 85%;
+	}
+}
+
+.text-wrapper--center {
+	margin: 0 auto;
+}
+
+.custom-section--container {
+	margin: 0 auto;
+	max-width: 1080px;
+	padding: 0 var(--ifm-spacing-horizontal);
+	width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+	.custom-section--container {
+		padding: 0 2rem;
+	}
+}
+
+@media (max-width: 360px) {
+	.navbar__title {
+		display: none;
+	}
+	.navbar-sidebar__brand .navbar__title {
+		display: block;
+	}
+}
+
+section.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 3.7rem;
+	z-index: 1;
+	display: block;
+	background-color: var(--ifm-color-gray-200);
+	box-shadow: 0 3px 8px rgb(32 37 45 / 8%);
+}
+
+@media screen and (max-width: 540px) {
+	section.sticky {
+		display: none;
+	}
+}
+
+.footer__slogan {
+	color: var(--ifm-color-gray-400);
+	font-size: 0.9rem;
+}
+
+.footer__title {
+	font: bold var(--ifm-h6-font-size) / var(--ifm-heading-line-height)
+		var(--ifm-font-family-base);
+}
+
+.button--lg {
+	--ifm-button-size-multiplier: 1.2;
+}
