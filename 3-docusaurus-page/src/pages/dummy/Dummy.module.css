@@ -1,14 +1,22 @@
 .card-grid-3 {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 50px;
-	justify-content: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.card-grid-5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 @media screen and (max-width: 1400px) {
-	.card-grid-3 {
-		grid-template-columns: 1fr 1fr;
-	}
+  .card-grid-3 {
+    grid-template-columns: 1fr 1fr;
+  }
 }

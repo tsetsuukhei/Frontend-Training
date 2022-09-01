@@ -1,71 +1,70 @@
 /*---------CARD-----------*/
 
 .link {
-	color: var(--ifm-color-black);
-	position: relative;
+  color: var(--ifm-color-black);
+  position: relative;
 }
 
 .link:hover {
-	color: var(--ifm-color-black);
+  color: var(--ifm-color-black);
 }
 
 .card-border {
-	background-color: var(--ifm-color-white);
-	padding: 1.5rem;
-	border-radius: 10px;
-	border: 1px solid var(--ifm-color-gray-400);
-
-	overflow: hidden;
+  background-color: var(--ifm-color-white);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid var(--ifm-color-gray-400);
+  overflow: hidden;
 }
 
 .card-border:hover {
-	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 .card-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	min-height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 130px;
 }
 
 .card-header {
-	display: flex;
-	align-items: center;
-	margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .card-header > h5 {
-	margin: 0 0 0 12px;
+  margin: 0 0 0 12px;
 }
 
 .card-container p {
-	margin: 0;
+  margin: 0;
 }
 
 .card-bottom {
-	display: flex;
-	align-items: center;
-	margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .card-bottom > p {
-	margin: 0;
-	font-size: 14px;
-	font-weight: bold;
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .card-bottom > div {
-	margin-left: 5px;
+  margin-left: 5px;
 }
 
 .icon {
-	width: 40px;
-	height: 40px;
-	background-color: var(--ifm-color-gray-100);
-	border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--ifm-color-gray-100);
+  border-radius: 5px;
 }
 
 .icon > * {
-	padding: 8px;
+  padding: 8px;
 }
